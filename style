@@ -1,0 +1,175 @@
+body{
+    margin: 0px;
+    padding:  0px;
+    background: url(wallpaper.jpg)
+}
+
+.fondo{
+    width: 100%;
+}
+
+
+.titulo{
+    width: auto;
+    color:transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 43px;
+    font-weight:bold;
+    float: inherit;
+    text-size-adjust: 80px;
+    padding-inline-start: 100;
+    margin-top: 20px;
+    font-style:initial;
+    
+
+    background-image: url(fondoTexto.png);
+    background-size:contain;
+    background-position-y:center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+
+}
+.conteiner{
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+    background: blue;
+}
+.logo{
+    width: 80%;
+    float: left;
+    background: transparent;
+
+}
+
+.left{
+    position: absolute;
+    float:inline-start;
+    margin-top: 5px;
+    width: 80%;
+    height: 70px;
+    border-radius: 30px;
+    background:transparent;
+}
+
+#inputTexto{
+    float: right;
+    display: flex;
+    box-sizing: content-box;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;
+    color: #000;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background:white;
+    flex-direction: column-reverse;
+}
+
+.left-button{
+    margin-top: 290px;
+    position: absolute;
+    float: left;
+    width: 70%;
+    height: auto;
+    background:transparent;
+}
+.logoImg{
+    margin-top: 1%;
+    margin-left: 0%;
+    float:inherit;
+}
+.tittle{
+    float: inherit;
+    margin-left: 30%;
+    text-align: center;
+    text-size-adjust: 80px;
+    color: white;
+    padding-inline-start: 100;
+    margin-top: 50px;
+    font-style:initial;
+    font-size: 35px;
+    
+}
+
+#texto{
+    margin-left: 10%;
+    margin-bottom: 10%;
+    width: 80%;
+    height: 50%;
+    margin-right: 5%;
+
+}
+
+
+#btn-encriptar{
+    padding: 10px;
+    width: 20%;
+    height: 60%;
+    color:white;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 40%;
+    background-image: url(fondoTexto.png);
+    background-size:contain;
+    background-position-y:center;
+    text-align: center;
+    font-size:16px;
+    font-weight: lighter;
+    
+}
+
+#btn-desencriptar{
+    padding: 10px;
+    width: 20%;
+    height: 60%;
+    border-radius: 10px;
+    margin-left: 8%;
+    color:white;
+    background-image: url(fondoTexto.png);
+    background-size:contain;
+    background-position-y:center;
+    text-align: center;
+    font-size:16px;
+    font-weight:lighter;
+}
+    
+.aclaracion{
+    color:darkmagenta;
+    font-size: 13px;
+    margin: 10px;
+    margin-left:210px;
+    margin-top: 120px;
+    margin-bottom: 10px;
+    
+}
+.rigth{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 10px;
+    width:790px;
+    height: 60px;
+    background: #AAB2D5;
+    border-radius: 10px;
+    flex: none;
+    order: 3;
+    flex-grow: 1;
+    margin-top: 220px;
+    margin-left: 220px;
+
+}
+
+.footer{
+    margin-top: 60%;
+    text-align: center;
+    color: black;
+    font-size: 13px;
+}
