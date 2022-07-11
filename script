@@ -10,8 +10,7 @@ function encriptar(){
       document.getElementById("inputTexto");
       document.getElementById("texto2").innerHTML= txtCifrado;
       document.getElementById("inputTexto");
-      
-
+     
 }
 
 function desencriptar(){
@@ -21,11 +20,11 @@ function desencriptar(){
         var txtCifrado= txtCifrado.replace(/imes/igm,"i");
         var txtCifrado= txtCifrado.replace(/ai/igm,"a");
         var txtCifrado= txtCifrado.replace(/ufat/igm,"u");
-    
+ 
         document.getElementById("texto2");
-      document.getElementById("inputTexto");
-      document.getElementById("texto2").innerHTML= txtCifrado;
-      document.getElementById("inputTexto");
+        document.getElementById("inputTexto");
+        document.getElementById("texto2").innerHTML= txtCifrado;
+        document.getElementById("inputTexto");
       
     }
 
